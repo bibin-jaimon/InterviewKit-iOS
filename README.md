@@ -1,4 +1,4 @@
-# 2023-ios-interview-prep
+# 2023 iOS interview preparation guide
 
 # The SOLID Principles
 
