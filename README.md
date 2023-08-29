@@ -1,6 +1,6 @@
 # iOS interview preparation guide | 2023
 
-+ [▶ Generic Protocol](#-generic-protocol)
++ [▶ How to write Generic Protocol](#-generic-protocol)
 
 
 
