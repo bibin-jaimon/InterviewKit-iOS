@@ -14,7 +14,37 @@
 ### How to write Generic Protocol in Swift
 
 ```swift
-protocol Generic {
+protocol StackProtocol {
+    associatedtype Element
+    
+    mutating func push(_ element: Element)
+    mutating func pop() -> Element?
+}
 
+struct IntStack: StackProtocol {
+    typealias Element = Int
+    var stack = [Element]()
+
+    mutating func push(_ element: Element) {
+        stack.append(element)
+    }
+    
+    mutating func pop() -> Element? {
+        stack.popLast()
+    }
+}
+
+struct StringStack: StackProtocol {
+    typealias Element = String
+    var stack: [Element] = []
+    
+    mutating func push(_ element: String) {
+        stack.append(element)
+    }
+    
+    mutating func pop() -> String? {
+        stack.popLast()
+    }
+    
 }
 ```
