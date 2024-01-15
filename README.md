@@ -4,7 +4,9 @@
   <summary>Click to expand</summary>
 </details> -->
 
-> **Please explain the design principle that you follows while developing a software**
+```
+Please explain the design principle that you follows while developing a software
+```
 
   - [Single Responsibility Principle (SRP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/srp.md)
   - [Open/Closed Principle (OCP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/ocp.md)
@@ -12,9 +14,9 @@
   - Interface Segregation Principle (ISP):
   - Dependency Inversion Principle (DIP):
 
----
-
-> **What is protocol in Swift and how to write generic protocol in Swift**
+```
+What is protocol in Swift and how to write generic protocol in Swift
+```
 
 ```swift
 protocol StackProtocol {
@@ -51,10 +53,10 @@ struct StringStack: StackProtocol {
     
 }
 ```
----
 
-> **Difference between Any, any and AnyObject**
-
+```
+Difference between Any, any and AnyObject
+```
 
 
 
@@ -145,10 +147,19 @@ By employing these optimization techniques, you can ensure a smooth and efficien
 
 ---
 
-3> Difference between weak and unowned
-4> How call get landed on device when its not active
-5> How calling and messaging is handled in your project
-6> What is use of ScrollView content size method
+```
+Difference between weak and unowned
+```
+
+```
+How call get landed on device when its not active
+```
+```
+How calling and messaging is handled in your project
+```
+```
+What is use of ScrollView content size method
+```
 7> What is reusable identifier and what is its use
 8> Explain VIPER design pattern
 9> Difference between escaping and non-escaping closer
