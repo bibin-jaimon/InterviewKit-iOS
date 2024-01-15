@@ -4,12 +4,6 @@
   <summary>Click to expand</summary>
 </details> -->
 
-
-
-<!-- - [The Protocol](#the-protocol)
-  - [How to write generic protocol in Swift](#how-to-write-generic-protocol-in-swift) -->
-
-  
 > **Please explain the design principle that you follows while developing a software**
 
   - [Single Responsibility Principle (SRP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/srp.md)
@@ -18,11 +12,10 @@
   - Interface Segregation Principle (ISP):
   - Dependency Inversion Principle (DIP):
 
+---
 
-<details open>
-  <summary>What is protocol in Swift and how to write generic protocol in Swift</summary>
+> **What is protocol in Swift and how to write generic protocol in Swift**
 
-  - This is the content of the expandable section.
 ```swift
 protocol StackProtocol {
     associatedtype Element
@@ -58,26 +51,22 @@ struct StringStack: StackProtocol {
     
 }
 ```
-</details>
- 
+---
 
-<details>
-  <summary>Difference between Any, any and AnyObject</summary>
-</details>
+> **Difference between Any, any and AnyObject**
 
 
 
 
+> **Self self .self**
 
-**Self self .self**
+> ObjectIdentifier
 
-ObjectIdentifier
+> Discardable result
+> Property wrappers
+> Stack vs heap allocation
 
-Discardable result
-Property wrappers
-Stack vs heap allocation
-
-Fileprivate and private abilities
+> Fileprivate and private abilities
 
 Value capturing closure
 
