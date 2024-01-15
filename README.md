@@ -9,19 +9,17 @@
 <!-- - [The Protocol](#the-protocol)
   - [How to write generic protocol in Swift](#how-to-write-generic-protocol-in-swift) -->
 
-  <details>
-
-  <summary>Explain SOLID principles</summary>
+  
+> **Please explain the design principle that you follows while developing a software**
 
   - [Single Responsibility Principle (SRP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/srp.md)
   - [Open/Closed Principle (OCP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/ocp.md)
   - [Liskov Substitution Principle (LSP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/lsp.md)
   - Interface Segregation Principle (ISP):
   - Dependency Inversion Principle (DIP):
-  </details>
 
 
-<details>
+<details open>
   <summary>What is protocol in Swift and how to write generic protocol in Swift</summary>
 
   - This is the content of the expandable section.
@@ -166,7 +164,9 @@ By employing these optimization techniques, you can ensure a smooth and efficien
 8> Explain VIPER design pattern
 9> Difference between escaping and non-escaping closer
 10> What is difference between Array and NSArray
-11> What is defer keyword and its use
+
+> **What is defer keyword and its use**
+
 12> Where you have used unowned
 13> What is Protocol- Composition and Protocol-Extension
 14> What are access specifiers in swift
