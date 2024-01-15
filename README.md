@@ -8,15 +8,16 @@
 Please explain the design principle that you follows while developing a software
 ```
 
-  - [Single Responsibility Principle (SRP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/srp.md)
-  - [Open/Closed Principle (OCP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/ocp.md)
-  - [Liskov Substitution Principle (LSP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/lsp.md)
-  - Interface Segregation Principle (ISP):
-  - Dependency Inversion Principle (DIP):
+>  - [Single Responsibility Principle (SRP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/srp.md)
+>  - [Open/Closed Principle (OCP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/ocp.md)
+>  - [Liskov Substitution Principle (LSP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/lsp.md)
+>  - Interface Segregation Principle (ISP):
+>  - Dependency Inversion Principle (DIP):
 
 ```
 What is protocol in Swift and how to write generic protocol in Swift
 ```
+
 
 ```swift
 protocol StackProtocol {
@@ -53,6 +54,7 @@ struct StringStack: StackProtocol {
     
 }
 ```
+
 
 ```
 Difference between Any, any and AnyObject
@@ -123,27 +125,29 @@ Defer key word and execution order
 
 ---
 
+```text
 Consider the following scenario: You have a table view with a large number of cells containing images. How would you optimize the performance and scrolling smoothness of the table view?
+```
 
-
-To optimize the performance and scrolling smoothness of a table view with a large number of cells containing images, the following strategies can be employed:
-Implement Cell Reuse: Use cell reuse by utilizing the dequeueReusableCell(withIdentifier:forIndexPath:) method provided by UITableView. This allows cells to be recycled and reused instead of creating new cells for each row. By reusing cells, memory consumption is reduced and scrolling performance is improved.
-
-Asynchronous Image Loading: Download or load images asynchronously on a background queue, so that the main UI thread is not blocked. This can be achieved by using libraries such as SDWebImage or AlamofireImage, which handle asynchronous image loading and caching.
-
-Image Caching: Implement image caching to avoid redundant downloads or fetches from the network. Caching can be done using tools like NSCache or third-party libraries such as SDWebImage or Kingfisher. Caching improves performance by storing images in memory or on disk, reducing the need for repeated network requests.
-
-Lazy Loading: Load images lazily as the cells become visible on the screen. This can be achieved by implementing a technique known as "lazy loading" where you load the images for only the visible cells and postpone loading the rest until they become visible. This approach prevents unnecessary loading of off-screen images and improves scrolling performance.
-
-Image Resizing: Resize the images to the appropriate dimensions for display in the table view cells. Large images consume more memory and take longer to render. By resizing the images to match the cell's size or a predefined size, you can significantly improve performance.
-
-Prefetching: Implement the prefetchRows(at:) method provided by UITableViewDataSourcePrefetching protocol to prefetch the images for upcoming cells as the user scrolls. This can be done by initiating image loading or downloading in advance for cells that are likely to become visible next. Prefetching enhances the user experience by reducing the lag when new cells appear on the screen.
-
-Reduce Cell Complexity: Simplify the cell's layout and contents. Minimize the number of subviews, avoid complex hierarchy, and use lightweight UI components. By reducing the complexity of the cell, the rendering process becomes faster, resulting in smoother scrolling.
-
-Compress Images: Compress the images to reduce their file size without significant loss of quality. Smaller image sizes lead to faster downloads and improved rendering performance.
-
-By employing these optimization techniques, you can ensure a smooth and efficient scrolling experience for a table view with a large number of cells containing images.
+> To optimize the performance and scrolling smoothness of a table view with a large number of cells containing images, the following strategies can be employed:
+>
+> `Implement Cell Reuse`: Use cell reuse by utilizing the dequeueReusableCell(withIdentifier:forIndexPath:) method provided by UITableView. This allows cells to be recycled and reused instead of creating new cells for each row. By reusing cells, memory consumption is reduced and scrolling performance is improved.
+>
+> `Asynchronous Image Loading`: Download or load images asynchronously on a background queue, so that the main UI thread is not blocked. This can be achieved by using libraries such as SDWebImage or AlamofireImage, which handle asynchronous image loading and caching.
+>
+> `Image Caching`: Implement image caching to avoid redundant downloads or fetches from the network. Caching can be done using tools like NSCache or third-party libraries such as SDWebImage or Kingfisher. Caching improves performance by storing images in memory or on disk, reducing the need for repeated network requests.
+>
+> `Lazy Loading`: Load images lazily as the cells become visible on the screen. This can be achieved by implementing a technique known as "lazy loading" where you load the images for only the visible cells and postpone loading the rest until they become visible. This approach prevents unnecessary loading of off-screen images and improves scrolling performance.
+>
+> `Image Resizing`: Resize the images to the appropriate dimensions for display in the table view cells. Large images consume more memory and take longer to render. By resizing the images to match the cell's size or a predefined size, you can significantly improve performance.
+>
+> `Prefetching`: Implement the prefetchRows(at:) method provided by UITableViewDataSourcePrefetching protocol to prefetch the images for upcoming cells as the user scrolls. This can be done by initiating image loading or downloading in advance for cells that are likely to become visible next. Prefetching enhances the user experience by reducing the lag when new cells appear on the screen.
+>
+> `Reduce Cell Complexity`: Simplify the cell's layout and contents. Minimize the number of subviews, avoid complex hierarchy, and use lightweight UI components. By reducing the complexity of the cell, the rendering process becomes faster, resulting in smoother scrolling.
+>
+> `Compress Images`: Compress the images to reduce their file size without significant loss of quality. Smaller image sizes lead to faster downloads and improved rendering performance.
+>
+> By employing these optimization techniques, you can ensure a smooth and efficient scrolling experience for a table view with a large number of cells containing images.
 
 ---
 
