@@ -11,8 +11,8 @@
 >  - [Single Responsibility Principle (SRP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/srp.md)
 >  - [Open/Closed Principle (OCP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/ocp.md)
 >  - [Liskov Substitution Principle (LSP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/lsp.md)
->  - Interface Segregation Principle (ISP):
->  - Dependency Inversion Principle (DIP):
+>  - [Interface Segregation Principle (ISP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/isp.md)
+>  - [Dependency Inversion Principle (DIP)](https://dev.to/bibinjaimon/5-solid-dependency-inversion-principle-swift-ios-development-ep2)
 
 ```
 🚀 What is protocol in Swift and how to write generic protocol in Swift
