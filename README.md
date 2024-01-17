@@ -1,12 +1,17 @@
 # iOS interview questions
-- List of iOS interview question which collected from real world interviews
 
-### GCD - Grand Central Dispatch
+List of iOS interview question which collected from real world interviews
 
 - How do we achieve concurrency in iOS
 - What is DispatchQueues
 - Explain sync and async
 - What is quality of services
+
+- Difference between class vs structure
+- How do we choose between class and structure
+- What is value type and reference type
+- Is array refernce type or value stype? What about strings?
+- What is copy on write
 
 > 🚀 Explain the design principle that you follows while developing a software [#12](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/12#issue-2086920279)
 
