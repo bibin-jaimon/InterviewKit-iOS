@@ -1,4 +1,12 @@
 # iOS interview questions
+- List of iOS interview question which collected from real world interviews
+
+### GCD - Grand Central Dispatch
+
+- How do we achieve concurrency in iOS
+- What is DispatchQueues
+- Explain sync and async
+- What is quality of services
 
 > 🚀 Explain the design principle that you follows while developing a software [#12](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/12#issue-2086920279)
 
