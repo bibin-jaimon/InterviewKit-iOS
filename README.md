@@ -1,4 +1,4 @@
-# iOS interview preparation guide
+# iOS interview questions
 
 > 🚀 Explain the design principle that you follows while developing a software [#12](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/12#issue-2086920279)
 
@@ -6,21 +6,13 @@
 
 > 🚀 How would you optimize the performance and scrolling smoothness of the table view? [#7](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/7#issue-1998834546)
 
-```
-🚀 Difference between Any, any and AnyObject
-```
+> 🚀 Difference between Any, any and AnyObject
 
-```
-🚀 Difference between fileprivate and private
-```
-
+> 🚀 Difference between fileprivate and private
 
 > 🚀 What is capture list in Swift? Explain with example
 
-
-```
-🚀 What is Generics in Swift
-```
+> 🚀 What is Generics in Swift
 
 > **Self self .self**
 
