@@ -1,60 +1,8 @@
 # iOS interview preparation guide
 
-<!-- <details>
-  <summary>Click to expand</summary>
-</details> -->
+> 🚀 Explain the design principle that you follows while developing a software [#12](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/12#issue-2086920279)
 
-```
-🚀 Please explain the design principle that you follows while developing a software
-```
-
->  - [Single Responsibility Principle (SRP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/srp.md)
->  - [Open/Closed Principle (OCP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/ocp.md)
->  - [Liskov Substitution Principle (LSP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/lsp.md)
->  - [Interface Segregation Principle (ISP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/isp.md)
->  - [Dependency Inversion Principle (DIP)](https://dev.to/bibinjaimon/5-solid-dependency-inversion-principle-swift-ios-development-ep2)
-
-```
-🚀 What is protocol in Swift and how to write generic protocol in Swift
-```
-
-
-```swift
-protocol StackProtocol {
-    associatedtype Element
-    
-    mutating func push(_ element: Element)
-    mutating func pop() -> Element?
-}
-
-struct IntStack: StackProtocol {
-    typealias Element = Int
-    var stack = [Element]()
-
-    mutating func push(_ element: Element) {
-        stack.append(element)
-    }
-    
-    mutating func pop() -> Element? {
-        stack.popLast()
-    }
-}
-
-struct StringStack: StackProtocol {
-    typealias Element = String
-    var stack: [Element] = []
-    
-    mutating func push(_ element: String) {
-        stack.append(element)
-    }
-    
-    mutating func pop() -> String? {
-        stack.popLast()
-    }
-    
-}
-```
-
+> 🚀 How to create a generic protocol in Swift [#13](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/13#issue-2086925400)
 
 > 🚀 How would you optimize the performance and scrolling smoothness of the table view? [#7](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/7#issue-1998834546)
 
