@@ -56,11 +56,23 @@ struct StringStack: StackProtocol {
 ```
 
 
+> 🚀 How would you optimize the performance and scrolling smoothness of the table view? [#7](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/7#issue-1998834546)
+
 ```
 🚀 Difference between Any, any and AnyObject
 ```
 
+```
+🚀 Difference between fileprivate and private
+```
 
+
+> 🚀 What is capture list in Swift? Explain with example
+
+
+```
+🚀 What is Generics in Swift
+```
 
 > **Self self .self**
 
@@ -69,13 +81,6 @@ struct StringStack: StackProtocol {
 > Discardable result
 > Property wrappers
 > Stack vs heap allocation
-
-> Fileprivate and private abilities
-
-Value capturing closure
-
-Generics
-Generic protocol in swift
 
 Why its called pop
 
