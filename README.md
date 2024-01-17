@@ -5,7 +5,7 @@
 </details> -->
 
 ```
-Please explain the design principle that you follows while developing a software
+🚀 Please explain the design principle that you follows while developing a software
 ```
 
 >  - [Single Responsibility Principle (SRP)](https://github.com/bibin-jaimon/2023-ios-interview-prep/blob/development/solid-principles/srp.md)
@@ -15,7 +15,7 @@ Please explain the design principle that you follows while developing a software
 >  - Dependency Inversion Principle (DIP):
 
 ```
-What is protocol in Swift and how to write generic protocol in Swift
+🚀 What is protocol in Swift and how to write generic protocol in Swift
 ```
 
 
@@ -57,7 +57,7 @@ struct StringStack: StackProtocol {
 
 
 ```
-Difference between Any, any and AnyObject
+🚀 Difference between Any, any and AnyObject
 ```
 
 
