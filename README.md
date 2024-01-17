@@ -13,6 +13,11 @@ List of iOS interview question which collected from real world interviews
 - Is array refernce type or value stype? What about strings?
 - What is copy on write
 
+- Explain memory management in iOS
+- What is weak and unowned
+- What is ARC
+- Explain weak and strong refences in Swift
+
 > 🚀 Explain the design principle that you follows while developing a software [#12](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/12#issue-2086920279)
 
 > 🚀 How to create a generic protocol in Swift [#13](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/13#issue-2086925400)
