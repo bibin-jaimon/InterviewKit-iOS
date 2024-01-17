@@ -1,4 +1,4 @@
-# iOS interview preparation guide | 2023
+# iOS interview preparation guide
 
 <!-- <details>
   <summary>Click to expand</summary>
