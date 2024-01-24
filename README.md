@@ -110,6 +110,11 @@ Asking relevent question to interviewer is the key when it comes to system desig
 - Why are you leaving the current company
 - Why should we hire you
 - Role and responsibilities
+- What are your expectaions for next role
+- How do you resolve conflict with a collegue
+- Share a situation when you were under pressure
+- Share a situation where you take risk
+- Share an experience about a failure
 
 ---
 
