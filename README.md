@@ -90,6 +90,13 @@ List of iOS interview question which collected from real world interviews
 - Way to unwrap optionals
 - How do you handle absense of a value in Swift
 - What is Optional binding and optional chaining
+
+## The System Design
+
+Asking relevent question to interviewer is the key when it comes to system design
+
+- How do you create an Authentication module
+- Design a news app with two screens
 ---
 
 
