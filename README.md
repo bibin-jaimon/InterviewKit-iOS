@@ -87,9 +87,15 @@ List of iOS interview question which collected from real world interviews
 
 ## The Optionals
 - What is the type of optional in Swift? How are they used and why are they significant
-- Way to unwrap optionals
+- Explain optionals unwrapping
 - How do you handle absense of a value in Swift
 - What is Optional binding and optional chaining
+- If optionals are not there, How would you create one
+
+## The Generics
+- What is generics
+- How do we create a generic func which only works with a particular type in Swift
+- Can we create generic protocols
 
 ## The System Design
 
@@ -99,7 +105,7 @@ Asking relevent question to interviewer is the key when it comes to system desig
 - Design a news app with two screens
 ---
 
-
+<!---
 > 🚀 Difference between Any, any and AnyObject
 
 > 🚀 What is Generics in Swift
@@ -252,3 +258,4 @@ iOS view size classes
 
 content huggin compression resistance
 code example with sync vs async in serial and concurrent view.
+--->
