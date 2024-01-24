@@ -66,8 +66,6 @@ List of iOS interview question which collected from real world interviews
 - Explain the design principle that you follows while developing a software [#12](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/12#issue-2086920279)
 - Design patterns used in development
 
-## The Behaviour
-- What do check in the PR reviews
 
 ## The Access control
 - Difference between fileprivate and private
@@ -103,6 +101,16 @@ Asking relevent question to interviewer is the key when it comes to system desig
 
 - How do you create an Authentication module
 - Design a news app with two screens
+
+## The Behaviour
+- What do you check in the PR reviews
+- A challenging situation in last 6 months
+- Why did you left the previous company
+- What motivates you to work at current company
+- Why are you leaving the current company
+- Why should we hire you
+- Role and responsibilities
+
 ---
 
 <!---
