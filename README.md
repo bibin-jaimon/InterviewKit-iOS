@@ -7,33 +7,92 @@
 
 List of iOS interview question which collected from real world interviews
 
-- How do we achieve concurrency in iOS
-- What is DispatchQueues
-- Explain sync and async
-- What is quality of services
+## The Concurrency
 
-- Difference between class vs structure
+- How do we achieve concurrency in iOS
+- What is GCD
+- Expalin sync and async
+- Ever face any race condition in iOS. Explain with example
+- What is DispatchQueue
+- Explain sync and async of DispatchQueue
+- Types of DispatchQueues
+- What is quality of services
+- Explain a scenario where we can use DispatchGroup
+- What is DispatchWorkItem
+- Why we need Operations
+- Predict output of the codes
+- Explain semaphore in Swift
+- What is target quenes in iOS
+
+## Memory Management
+
+- Please explain memory management in iOS
+- What is ARC. Explain the working
+- What is strong references
+- Will ARC only works with classes?
+- Explain memory leak in iOS
+- How do we find memory leak in iOS
+- What is weak and unowned. Explain the difference
+- What are the best practices you can use to handle memory management in iOS?
+- When to use unowned
+
+
+## The Debugging
+
+- Explain your experinece in with debugging
+- What is LLD
+- How do we test the low network scenario in iOS
+- How do you track crash happened in production
+
+## Custom types
+
+- Difference between Struct and Class
 - How do we choose between class and structure
-- What is value type and reference type
 - Is array refernce type or value stype? What about strings?
 - What is copy on write
+- What is value type and reference type
+- Stack vs heap allocation
+- What kind of memory allocation is used for struct and why
 
-- Explain memory management in iOS
-- What is weak and unowned
-- What is ARC
-- Explain weak and strong refences in Swift
+## The performance
+- How would you optimize the performance and scrolling smoothness of the table view? [#7](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/7#issue-1998834546)
 
-> 🚀 Explain the design principle that you follows while developing a software [#12](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/12#issue-2086920279)
+## The protocols
+- How to create a generic protocol in Swift [#13](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/13#issue-2086925400)
+- What is Protocol - Composition and Protocol - Extension
+- How how to give default implementation for protocol methods
 
-> 🚀 How to create a generic protocol in Swift [#13](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/13#issue-2086925400)
+## The core
+- Explain the design principle that you follows while developing a software [#12](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/12#issue-2086920279)
+- Design patterns used in development
 
-> 🚀 How would you optimize the performance and scrolling smoothness of the table view? [#7](https://github.com/bibin-jaimon/2023-ios-interview-prep/issues/7#issue-1998834546)
+## The Behaviour
+- What do check in the PR reviews
+
+## The Access control
+- Difference between fileprivate and private
+- Explain access control in swift
+- Difference between internal and public
+
+## The Extension
+- Advantage of using extensions
+- Can we create a stored property in extension and how we can create it
+
+## The Closure
+- Explain closure and types
+- What is capture list in Swift? Explain with example
+- Explain the difference between Escaping and Non-Escaping Closures in Swift
+
+
+## The Optionals
+- What is the type of optional in Swift? How are they used and why are they significant
+- Way to unwrap optionals
+- How do you handle absense of a value in Swift
+- What is Optional binding and optional chaining
+---
+
 
 > 🚀 Difference between Any, any and AnyObject
-
-> 🚀 Difference between fileprivate and private
-
-> 🚀 What is capture list in Swift? Explain with example
 
 > 🚀 What is Generics in Swift
 
@@ -43,7 +102,7 @@ List of iOS interview question which collected from real world interviews
 
 > Discardable result
 > Property wrappers
-> Stack vs heap allocation
+> 
 
 Why its called pop
 
@@ -51,15 +110,15 @@ Why extension can’t stored props
 
 What is property wrappers
 
-Difference between internal and public
+
 
 How can we achieve abstraction in swift
 
 Question: What is the difference between the retain cycle and the capture list in iOS? How do you avoid retain cycles in your code?
 
-Question: What are the best practices you can use to handle memory management in iOS?
+Question: 
 
-Question: What is the type of optional in Swift? How are they used and why are they significant?
+Question: 
 
 Question: What are the most effective ways to write clean code?
 
@@ -67,13 +126,12 @@ Question: Compare static and dynamic libraries in iOS. How are dynamic libraries
 
 Question: What approaches can you use to optimize performance and avoid bottlenecks in case of heavy loads like many UI updates or computationally intensive tasks?
 
-Question: Describe the differences between a reference type and a value type in Swift. How to choose between them?
 
 Question: Why is code smells so important in iOS? What are the common code smells in Swift?
 
 Question: What should you consider while designing an iOS app to support offline mode?
 
-Question: Explain the difference between Escaping and Non-Escaping Closures in Swift.
+Question: 
 
 Value capturing closure
 
@@ -119,9 +177,7 @@ Consider the following scenario: You have a table view with a large number of ce
 
 ---
 
-```
-Difference between weak and unowned
-```
+
 
 ```
 How call get landed on device when its not active
@@ -134,17 +190,17 @@ What is use of ScrollView content size method
 ```
 7> What is reusable identifier and what is its use
 8> Explain VIPER design pattern
-9> Difference between escaping and non-escaping closer
+9> 
 10> What is difference between Array and NSArray
 
 > **What is defer keyword and its use**
 
-12> Where you have used unowned
-13> What is Protocol- Composition and Protocol-Extension
+12> 
+13> 
 14> What are access specifiers in swift
 15> What is difference between Open and Public
 16> What is difference between private and filePrivate
-17> What is Optional binding and optional chaining
+17> 
 18> What is difference between static and dynamic framework
 19> How you add your own framework in pods
 20> What is Codable protocol
