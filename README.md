@@ -73,6 +73,7 @@ List of iOS interview question which collected from real world interviews
 - Difference between fileprivate and private
 - Explain access control in swift
 - Difference between internal and public
+- Difference between open and public
 
 ## The Extension
 - Advantage of using extensions
