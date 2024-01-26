@@ -11,7 +11,7 @@ List of iOS interview question which collected from real world interviews
 
 - How do we achieve concurrency in iOS
 - What is GCD
-- Expalin sync and async
+- Explain sync and async
 - Ever face any race condition in iOS. Explain with example
 - What is DispatchQueue
 - Explain sync and async of DispatchQueue
@@ -81,6 +81,7 @@ List of iOS interview question which collected from real world interviews
 - Explain closure and types
 - What is capture list in Swift? Explain with example
 - Explain the difference between Escaping and Non-Escaping Closures in Swift
+- Is closure reference type
 
 
 ## The Optionals
