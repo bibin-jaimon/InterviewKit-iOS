@@ -105,6 +105,7 @@ Asking relevent question to interviewer is the key when it comes to system desig
 
 ## The Behaviour
 - What do you check in the PR reviews
+- What is your thoughts on using third party libraries
 - A challenging situation in last 6 months
 - Why did you left the previous company
 - What motivates you to work at current company
